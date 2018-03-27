@@ -5,9 +5,9 @@ DEPS = {
     # Building grpc requires it to be called thusly.
     "com_google_protobuf": {
         "rule": "http_archive",
-        "url": "https://github.com/google/protobuf/archive/2807436cd828a526c5c38dd235c0d0d9cdc67b1f.zip", # 3.4.0
-        "strip_prefix": "protobuf-2807436cd828a526c5c38dd235c0d0d9cdc67b1f",
-        "sha256": "e83ee63eccfb47f07f263fbcdea0a2d838dab4a750c53867013539b5e536dd8a",
+        "url": "http://apt.awsinternal.tri.global/third_party/miscfree/protobuf/protobuf-3.5.0.tar.gz", # 3.5.0
+        "strip_prefix": "protobuf-3.5.0",
+        "sha256": "0cc6607e2daa675101e9b7398a436f09167dffb8ca0489b0307ff7260498c13c",
     },
 
     # This binds the cc_binary "protoc" into
